@@ -8,9 +8,9 @@ function limpiar() {
 }
 
 function dividir() {
-    let resultado = Number(n1.value) / Number(n2.value);
+    let total = Number(n1.value) / Number(n2.value);
+    resultado.value = total;
     limpiar();
-    resultado.value = resultado;
 }
 
 document.getElementById('division').addEventListener('click', dividir);
