@@ -1,0 +1,59 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#contenedor {
+    background-color: rgb(245, 234, 221);
+    padding: 3em;
+}
+
+form {
+    width: 30%;
+    margin: 0 auto;
+}
+
+fieldset {
+    border-top: 0.15em solid blueviolet;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+legend {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: center;
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+img {
+    width: 2em;
+}
+
+input {
+    border: 0.15em solid blueviolet;
+    padding: 0.5em;
+}
+
+fieldset>section, input {
+    margin-bottom: 1em;
+}
+
+fieldset>section input{ 
+    vertical-align: top;
+    width: calc(100% - 2em - 2em);
+}
+
+label {
+    margin-bottom: 0.25em;
+}
+
+input[type=submit] {
+    background-color: rgb(169, 116, 219);
+    color: white;
+    font-weight: bold;
+}
